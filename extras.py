@@ -12,7 +12,7 @@ def fence(string_1, string_2):
     Example:
 
     fence("aaa","bbb")
-    aaa_bbb_aaa    
+    "aaa_bbb_aaa"    
     '''
     return string_1 + '_' + string_2 +'_'+ string_1
 
@@ -25,8 +25,8 @@ def outer(string):
     
     Example:
     fence("Betis")
-    Bs
+    "Bs"
     '''
 
-    return print(string[0]+string[-1])  
+    return string[0]+string[-1] 
 
